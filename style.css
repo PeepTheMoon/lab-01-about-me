@@ -1,3 +1,7 @@
+body {
+    background-color: beige;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
 }
@@ -12,6 +16,11 @@ h3 {
 
 h4 {
     font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+
 }
 
 p {
@@ -29,4 +38,10 @@ ul {
 img {
     height: 400px;
     width: 400px;
+}
+
+button {
+    background-color: teal;
+    border-radius: 5px;
+    padding: 10px;
 }
