@@ -26,7 +26,11 @@ function quizMe() {
 
     const isPainter = prompt('Is this artist a painter (Yes/No)?');
 
-    if (isYes(isPainter) === true) {
+    const isSculptor = prompt('Does this artist sculpt (Yes/No)?');
+
+    const isMetalsmith = prompt('Is this artist a metalsmith (Yes/No)?');
+
+    if (isYes(isPainter, isSculptor, isMetalsmith) === true) {
         correctAnswers++;
     }
 
