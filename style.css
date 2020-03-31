@@ -4,6 +4,7 @@ body {
 
 h1 {
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -35,7 +36,12 @@ ul {
     font-family: 'Amiri', serif;
 }
 
-img {
+#jasper {
+    height: 550px;
+    width: 400px;
+}
+
+#alice {
     height: 400px;
     width: 400px;
 }

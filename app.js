@@ -11,7 +11,7 @@ function quizMe() {
     let correctAnswers = 0;
     let name = '';
 
-    alert('Hello from the artist!');
+    alert('Hello from the artist! Click OK to continue.');
 
     const confirmed = confirm('Are you ready to take the quiz?');
     if (confirmed === false) {
@@ -34,12 +34,14 @@ function quizMe() {
         correctAnswers++;
     }
 
-    let response = 'Your name is ' + name;
+    let response = 'Okay ' + name;
 
-    if (correctAnswers >= 1) {
-        response += ' and you know this artist!';
+    alert('Your quiz is complete.  Click to see your results!');
+
+    if (correctAnswers >= 3) {
+        response += ' you know this artist!';
     } else {
-        response += ' and you should read about the artist again.';
+        response += ' you should read about the artist again.';
     }
 
     result.textContent = response;
