@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+p {
+    font-family: 'Amiri', serif;
+}
+
+ol {
+    font-family: 'Amiri', serif;
+}
+
+ul {
+    font-family: 'Amiri', serif;
+}
+
+#jasper {
+    height: 550px;
+    width: 400px;
+}
+
+#alice {
+    height: 400px;
+    width: 400px;
+}
+
+button {
+    background-color: teal;
+    border-radius: 5px;
+    padding: 10px;
+}
