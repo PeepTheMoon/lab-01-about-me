@@ -6,6 +6,7 @@ const quizButton = document.getElementById('quiz-button');
 const result = document.getElementById('quiz-result');
 
 //Event Handlers- Quiz
+
 function quizMe() {
     let correctAnswers = 0;
     let name = '';
