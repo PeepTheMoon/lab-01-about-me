@@ -30,7 +30,13 @@ function quizMe() {
 
     const isMetalsmith = prompt('Is this artist a metalsmith (Yes/No)?');
 
-    if (isYes(isPainter, isSculptor, isMetalsmith) === true) {
+    if (isYes(isPainter) === true) {
+        correctAnswers++;
+    }
+    if (isYes(isSculptor) === true) {
+        correctAnswers++;
+    }
+    if (isYes(isMetalsmith) === true) {
         correctAnswers++;
     }
 
@@ -38,15 +44,12 @@ function quizMe() {
 
     alert('Your quiz is complete.  Click to see your results!');
 
-    if (correctAnswers >= 3) {
-        response += ' you know this artist!';
+    if (correctAnswers === 3) {
+        response += ' you got 3/3 correct and you know this artist!';
     } else {
-        response += ' you should read about the artist again.';
+        response += ' you got ' + correctAnswers + '/3 and you should read about the artist again.';
     }
 
     result.textContent = response;
 }
-
 quizButton.addEventListener('click', quizMe);
-
-quizMe();
