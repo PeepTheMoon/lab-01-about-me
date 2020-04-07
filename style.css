@@ -1,53 +1,138 @@
 body {
     background-color: beige;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCMZpLQHmg08Q1tsEbMl87dr5MNLZJIR-SUmu6q5VLFJoDDD_z&usqp=CAU");
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    text-align: center;
+    font-size: 40px;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 30px;
 }
 
 h3 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 h4 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 h5 {
     font-family: 'Playfair Display', serif;
-
 }
 
 p {
     font-family: 'Amiri', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#intro {
+    border-style: double;
+    font-style: italic;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#quiz {
+    text-align: center;
+    border-style: double;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 ol {
     font-family: 'Amiri', serif;
+    text-align: center;
 }
 
 ul {
     font-family: 'Amiri', serif;
 }
 
+#painting {
+    padding: 20px;
+}
+
 #jasper {
     height: 550px;
     width: 400px;
+    border-style: ridge;
+    border-color: white;
+    border-width: 5px;
+    margin-left: 20px;
 }
 
 #alice {
     height: 400px;
     width: 400px;
+    border-style: ridge;
+    border-color: white;
+    border-width: 5px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+#metalsmithing {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+li {
+    display: inline;
 }
 
 button {
     background-color: teal;
     border-radius: 5px;
     padding: 10px;
+    border-style: ridge;
+    border-color: white;
+    border-width: 2px;
 }
+
+button:hover {
+    opacity: 0.7;
+  }
+
+.instagram {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+
+.fa {
+    color: white; 
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  #instagram {
+      padding-top: 15px;
+  }
